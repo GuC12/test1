@@ -6,6 +6,5 @@ class Cat:
         self.lifes = lifes
     def infor(self):
         print("Имя", self.name, "Возраст", self.age, "Года,", "Жизни", self.lifes)
-    def sound(self):
-cat = Cat("kot,", 2, 6)
+cat = Cat("kot,", 2, 6,)
 print(cat.infor())
